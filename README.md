@@ -1,10 +1,10 @@
-## python_next
+# python_next
 
-# Frontend
+## Frontend
 
 npm install
 npm run dev
 
-# Backend
+## Backend
 
 python manage.py runserver
