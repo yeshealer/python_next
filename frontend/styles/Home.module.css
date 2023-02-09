@@ -1,0 +1,25 @@
+.container {
+  padding: 0 2rem;
+}
+
+.filter_blur {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.rainbow_text .char {
+  color: hsl(calc(360deg * var(--char-percent)), 90%, 65%);
+}
+
+@media (prefers-color-scheme: dark) {}
+
+@media screen and (max-width: 500px) {
+  .filter_blur {
+    border: none;
+    box-shadow: none;
+  }
+}
